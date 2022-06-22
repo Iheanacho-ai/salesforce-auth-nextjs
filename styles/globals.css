@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,26 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.login, .user-details{
+  width: 450px;
+  height: 200px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border-radius: 7px;
+  margin: 10% auto;
+  text-align: center;
+  padding: 30px;
+}
+.button{
+  width: 200px;
+  height: 40px;
+  background-color: #111;
+  color: #fff;
+  border-radius: 30px;
+}
+span{
+  font-weight: 600;
+  
 }
