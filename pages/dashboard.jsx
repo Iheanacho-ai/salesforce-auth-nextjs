@@ -34,9 +34,9 @@ const Dashboard = () => {
 
     return (
         <div className="user-details">
-        <p><span>Name:</span>{name}</p>
-        <p><span>Email: </span>{email}</p>
-        <button className= "button" onClick={logOutWithSalesforce}>LogOut with Salesforce</button>
+            <p><span>Name:</span>{name}</p>
+            <p><span>Email: </span>{email}</p>
+            <button className= "button" onClick={logOutWithSalesforce}>LogOut with Salesforce</button>
       </div>
     )
 }

@@ -12,7 +12,7 @@ const Home = () => {
   }
   return (
     <div className={styles.container}>
-      <div class="login">
+      <div className="login">
         <p>Click on this button to login</p>
         <button className= "button" onClick={loginWithSalesforce}>Login with Salesforce</button>
       </div>
